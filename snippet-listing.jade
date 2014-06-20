@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+    head
+        title Available Snippets
+        link(rel="stylesheet", href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
+    body
+        h1 Bootstrap Snippets for Visual Studio
+        table.table.table-striped.table-bordered
+            thead
+                tr
+                    th Title
+                    th Shortcut
+                    th Language
+                    th Description
+                    th Declarations
+            tbody
+                each snippet in snippets
+                    tr
+                        td= snippet.title
+                        td= snippet.shortcut
+                        td= snippet.language
+                        td= snippet.description
+                        td
+                            if snippet.declarations.length > 0
+                                dl.dl-horizontal
+                                    each declaration in snippet.declarations
+                                        dt= declaration.id
+                                        dd= declaration.tooltip
+                                            br
+                                            strong Default value: #{declaration.default}
+                            else
+                                strong None

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x jumbotron</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.</Description>
+			<Shortcut>bs-jumbotron</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>heading</ID>
+					<ToolTip>The heading text for the jumbotron</ToolTip>
+					<Default>Jumbotron heading</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>The content for the jumbotron</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="jumbotron">
+	<h1>$heading$</h1>
+	<p>$content$</p>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

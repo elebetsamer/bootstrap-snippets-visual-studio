@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="6ed6c371-5815-407f-9148-f64b3a025dd9" Version="1.0" Language="en-US" Publisher="Eric Lebetsamer" />
+    <DisplayName>Bootstrap Snippet Pack</DisplayName>
+    <Description xml:space="preserve">A collection of Twitter Bootstrap snippets for Visual Studio.</Description>
+    <MoreInfo>https://github.com/elebetsamer/bootstrap-snippets-visual-studio</MoreInfo>
+    <GettingStartedGuide>https://github.com/elebetsamer/bootstrap-snippets-visual-studio</GettingStartedGuide>
+    <Icon>logo.png</Icon>
+    <PreviewImage>preview.png</PreviewImage>
+    <Tags>snippets, bootstrap, web, html</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="snippets.pkgdef" />
+  </Assets>
+</PackageManifest>

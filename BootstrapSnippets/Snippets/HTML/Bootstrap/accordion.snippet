@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x accordion</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Using the collapse plugin, we built a simple accordion by extending the panel component.</Description>
+			<Shortcut>bs-accordion</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the modal</ToolTip>
+					<Default>collapse</Default>
+				</Literal>
+				<Literal>
+					<ID>heading1</ID>
+					<ToolTip>The heading for the first accordion object</ToolTip>
+					<Default>Accordion heading 1</Default>
+				</Literal>
+				<Literal>
+					<ID>content1</ID>
+					<ToolTip>The content for the first accordion object</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+				<Literal>
+					<ID>heading2</ID>
+					<ToolTip>The heading for the second accordion object</ToolTip>
+					<Default>Accordion heading 2</Default>
+				</Literal>
+				<Literal>
+					<ID>content2</ID>
+					<ToolTip>The content for the second accordion object</ToolTip>
+					<Default>Morbi eget libero quis metus consectetur semper.</Default>
+				</Literal>
+				<Literal>
+					<ID>heading3</ID>
+					<ToolTip>The heading for the third accordion object</ToolTip>
+					<Default>Accordion heading 3</Default>
+				</Literal>
+				<Literal>
+					<ID>content3</ID>
+					<ToolTip>The content for the third accordion object</ToolTip>
+					<Default>Suspendisse ullamcorper massa eget eleifend iaculis.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="panel-group" id="$id$">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#$id$-one">
+					$heading1$
+				</a>
+			</h4>
+		</div>
+		<div id="$id$-one" class="panel-collapse collapse in">
+			<div class="panel-body">
+				$content1$
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#$id$-two">
+					$heading2$
+				</a>
+			</h4>
+		</div>
+		<div id="$id$-two" class="panel-collapse collapse">
+			<div class="panel-body">
+				$content2$
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#$id$-three">
+					$heading3$
+				</a>
+			</h4>
+		</div>
+		<div id="$id$-three" class="panel-collapse collapse">
+			<div class="panel-body">
+				$content3$
+			</div>
+		</div>
+	</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

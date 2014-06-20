@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x media object</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Abstract object styles for building various types of components (like blog comments, Tweets, etc) that feature a left- or right-aligned image alongside textual content.</Description>
+			<Shortcut>bs-media-object</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>image</ID>
+					<ToolTip>The image for the media object</ToolTip>
+					<Default>http://placehold.it/64x64</Default>
+				</Literal>
+				<Literal>
+					<ID>heading</ID>
+					<ToolTip>The heading for the media object</ToolTip>
+					<Default>Media heading</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>The content for the media object</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="media">
+	<a class="pull-left" href="#">
+		<img class="media-object" src="$image$">
+	</a>
+	<div class="media-body">
+		<h4 class="media-heading">$heading$</h4>
+		$content$
+	</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

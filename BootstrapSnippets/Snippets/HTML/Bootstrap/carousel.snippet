@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x carousel</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>A generic plugin and component for cycling through elements like a carousel.</Description>
+			<Shortcut>bs-carousel</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the carousel</ToolTip>
+					<Default>my-carousel</Default>
+				</Literal>
+				<Literal>
+					<ID>image1</ID>
+					<ToolTip>The image for the first item in the carousel</ToolTip>
+					<Default><![CDATA[http://placehold.it/1200x675&text=First+slide]]></Default>
+				</Literal>
+				<Literal>
+					<ID>heading1</ID>
+					<ToolTip>The heading for the first item in the carousel</ToolTip>
+					<Default>Caption heading 1</Default>
+				</Literal>
+				<Literal>
+					<ID>content1</ID>
+					<ToolTip>The content for the first item in the carousel</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+				<Literal>
+					<ID>image2</ID>
+					<ToolTip>The image for second item in the carousel</ToolTip>
+					<Default><![CDATA[http://placehold.it/1200x675&text=Second+slide]]></Default>
+				</Literal>
+				<Literal>
+					<ID>heading2</ID>
+					<ToolTip>The heading for the second item in the carousel</ToolTip>
+					<Default>Caption heading 2</Default>
+				</Literal>
+				<Literal>
+					<ID>content2</ID>
+					<ToolTip>The content for the second item in the carousel</ToolTip>
+					<Default>Morbi eget libero quis metus consectetur semper.</Default>
+				</Literal>
+				<Literal>
+					<ID>image3</ID>
+					<ToolTip>The image for the third item in the carousel</ToolTip>
+					<Default><![CDATA[http://placehold.it/1200x675&text=Third+slide]]></Default>
+				</Literal>
+				<Literal>
+					<ID>heading3</ID>
+					<ToolTip>The heading for the third item in the carousel</ToolTip>
+					<Default>Caption heading 3</Default>
+				</Literal>
+				<Literal>
+					<ID>content3</ID>
+					<ToolTip>The content for the third item in the carousel</ToolTip>
+					<Default>Suspendisse ullamcorper massa eget eleifend iaculis.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div id="$id$" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#$id$" data-slide-to="0" class="active"></li>
+		<li data-target="#$id$" data-slide-to="1"></li>
+		<li data-target="#$id$" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="item active">
+			<img alt="First slide" src="$image1$">
+			<div class="carousel-caption">
+					<h3>$heading1$</h3>
+					<p>$content1$</p>
+				</div>
+		</div>
+		<div class="item">
+			<img alt="Second slide" src="$image2$">
+			<div class="carousel-caption">
+					<h3>$heading2$</h3>
+					<p>$content2$</p>
+				</div>
+		</div>
+		<div class="item">
+			<img alt="Third slide" src="$image3$">
+			<div class="carousel-caption">
+					<h3>$heading3$</h3>
+					<p>$content3$</p>
+				</div>
+		</div>
+	</div>
+	<a class="left carousel-control" href="#$id$" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="right carousel-control" href="#$id$" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

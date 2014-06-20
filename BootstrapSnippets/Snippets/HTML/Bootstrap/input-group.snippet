@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x input-group</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Extend form controls by adding text or buttons before, after, or on both sides of any text-based input. Use .input-group with an .input-group-addon to prepend or append elements to a single .form-control.</Description>
+			<Shortcut>bs-input-group</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>addon</ID>
+					<ToolTip>The text for the addon</ToolTip>
+					<Default>@</Default>
+				</Literal>
+				<Literal>
+					<ID>placeholder</ID>
+					<ToolTip>The placeholder text for the input</ToolTip>
+					<Default>Placecholder</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="input-group">
+	<span class="input-group-addon">$addon$</span>
+	<input type="text" class="form-control" placeholder="$placeholder$">
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

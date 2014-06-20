@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x list group</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>List groups are a flexible and powerful component for displaying not only simple lists of elements, but complex ones with custom content.</Description>
+			<Shortcut>bs-list-group</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>content1</ID>
+					<ToolTip>Item 1 content</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+				<Literal>
+					<ID>content2</ID>
+					<ToolTip>Item 2 content</ToolTip>
+					<Default>Morbi eget libero quis metus consectetur semper.</Default>
+				</Literal>
+				<Literal>
+					<ID>content3</ID>
+					<ToolTip>Item 3 content</ToolTip>
+					<Default>Suspendisse ullamcorper massa eget eleifend iaculis.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<ul class="list-group">
+	<li class="list-group-item">$content1$</li>
+	<li class="list-group-item">$content2$</li>
+	<li class="list-group-item">$content3$</li>
+</ul>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x thumbnail</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Extend Bootstrap's grid system with the thumbnail component to easily display grids of images, videos, text, and more.</Description>
+			<Shortcut>bs-thumbnail</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>image</ID>
+					<ToolTip>The image for the thumbnail object</ToolTip>
+					<Default>http://placehold.it/64x64</Default>
+				</Literal>
+				<Literal>
+					<ID>heading</ID>
+					<ToolTip>The caption heading for the thumbnail object</ToolTip>
+					<Default>Thumbnail caption heading</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>The caption content for the thumbnail object</ToolTip>
+					<Default><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>]]></Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="row">
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+			<img src="$image$">
+			<div class="caption">
+				<h3>$heading$</h3>
+				$content$
+			</div>
+		</div>
+	</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

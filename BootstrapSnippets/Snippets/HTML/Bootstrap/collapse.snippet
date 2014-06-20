@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x collapse</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Get base styles and flexible support for collapsible components like accordions and navigation.</Description>
+			<Shortcut>bs-collapse</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the collapse object</ToolTip>
+					<Default>collapse</Default>
+				</Literal>
+				<Literal>
+					<ID>heading</ID>
+					<ToolTip>The heading for the collapse object</ToolTip>
+					<Default>Accordion heading 1</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>The content for the collapse object</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#$id$">
+	$heading$
+</button>
+<div id="$id$" class="collapse">
+	$content$
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x panel</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>While not always necessary, sometimes you need to put your DOM in a box. For those situations, try the panel component.</Description>
+			<Shortcut>bs-panel</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>heading</ID>
+					<ToolTip>The heading text for the panel</ToolTip>
+					<Default>Panel heading</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>The content for the panel</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="panel panel-default">
+	<div class="panel-heading">$heading$</div>
+	<div class="panel-body">
+		$content$
+	</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

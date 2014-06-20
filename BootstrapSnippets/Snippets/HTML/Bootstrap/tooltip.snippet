@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x tooltip</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element.</Description>
+			<Shortcut>bs-tooltip</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>tooltip</ID>
+					<ToolTip>The text for the tooltip</ToolTip>
+					<Default>Some tooltip text!</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>The content for the tooltip link</ToolTip>
+					<Default>Hover over me</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<a href="#" data-toggle="tooltip" title="$tooltip$">$content$</a>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

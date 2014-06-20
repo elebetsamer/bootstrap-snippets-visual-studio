@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x modal</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.</Description>
+			<Shortcut>bs-modal</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the modal</ToolTip>
+					<Default>myModal</Default>
+				</Literal>
+				<Literal>
+					<ID>title</ID>
+					<ToolTip>Title of the modal</ToolTip>
+					<Default>Modal title</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>Content of the modal</ToolTip>
+					<Default><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>]]></Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="$id$">
+	Launch modal
+</button>
+<div class="modal fade" id="$id$" tabindex="-1" role="dialog" aria-labelledby="$id$Label" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="$id$Label">$title$</h4>
+			</div>
+			<div class="modal-body">
+				$content$
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

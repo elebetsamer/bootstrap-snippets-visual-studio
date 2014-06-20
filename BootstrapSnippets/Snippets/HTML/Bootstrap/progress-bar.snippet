@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x progress bar</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Provide up-to-date feedback on the progress of a workflow or action with simple yet flexible progress bars.</Description>
+			<Shortcut>bs-progress-bar</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>progress</ID>
+					<ToolTip>The percentage of progress</ToolTip>
+					<Default>50</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="progress">
+	<div class="progress-bar" role="progressbar" aria-valuenow="$progress$" aria-valuemin="0" aria-valuemax="100" style="width: $progress$%;">
+		<span class="sr-only">$progress$% Complete</span>
+	</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
