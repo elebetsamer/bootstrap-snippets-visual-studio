@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x form group horizontal checkbox</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>A form group that contains a checkbox, meant for use in a horizontal form.</Description>
+			<Shortcut>bs-form-group-horizontal-checkbox</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>label</ID>
+					<ToolTip>Text for the label</ToolTip>
+					<Default>My label</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+				<div class="checkbox">
+						<label>
+								<input type="checkbox"> $label$
+						</label>
+				</div>
+		</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

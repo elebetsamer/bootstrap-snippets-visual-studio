@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x inline form</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description><![CDATA[Add .form-inline to your <form> for left-aligned and inline-block controls. This only applies to forms within viewports that are at least 768px wide.]]></Description>
+			<Shortcut>bs-form-inline</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<form class="form-inline" role="form">
+		<div class="form-group">
+				<label class="sr-only" for="exampleInputEmail">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+		</div>
+		<div class="checkbox">
+				<label>
+						<input type="checkbox"> Remember me
+				</label>
+		</div>
+		<button type="submit" class="btn btn-default">Submit</button>
+</form>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

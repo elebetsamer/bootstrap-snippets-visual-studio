@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x form group inline</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>A form group with an input and a label, meant for use in an inline form.</Description>
+			<Shortcut>bs-form-group-inline</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the input</ToolTip>
+					<Default>form-group-input</Default>
+				</Literal>
+				<Literal>
+					<ID>label</ID>
+					<ToolTip>Text for the label</ToolTip>
+					<Default>My label</Default>
+				</Literal>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Type of the input</ToolTip>
+					<Default>text</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="form-group">
+		<label class="sr-only" for="$id$">$label$</label>
+		<input type="$type$" class="form-control" id="$id$" placeholder="$label$">
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

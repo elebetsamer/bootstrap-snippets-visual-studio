@@ -163,6 +163,15 @@
     <Content Include="Snippets\HTML\Bootstrap\tooltip.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-horizontal.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-inline.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-group.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-group-horizontal.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-group-inline.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-group-checkbox.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-group-horizontal-checkbox.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-group-radio.snippet" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
