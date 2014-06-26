@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x form group checkbox</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>A form group that contains a checkbox.</Description>
+			<Shortcut>bs-form-group-checkbox</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>label</ID>
+					<ToolTip>Text for the label</ToolTip>
+					<Default>My label</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="checkbox">
+		<label>
+				<input type="checkbox"> $label$
+		</label>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

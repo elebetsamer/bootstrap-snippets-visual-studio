@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x form group horizontal</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>A form group with an input and a label, meant for use in a horizontal form.</Description>
+			<Shortcut>bs-form-group-horizontal</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the input</ToolTip>
+					<Default>form-group-input</Default>
+				</Literal>
+				<Literal>
+					<ID>label</ID>
+					<ToolTip>Text for the label</ToolTip>
+					<Default>My label</Default>
+				</Literal>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Type of the input</ToolTip>
+					<Default>text</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="form-group">
+		<label for="$id$" class="col-sm-2 control-label">$label$</label>
+		<div class="col-sm-10">
+			<input type="$type$" class="form-control" id="$id$" placeholder="$label$">
+		</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -16,6 +16,7 @@ The code snippets are currently based on Bootstrap **3.1.1**
 ![The "Code Snippets Manager" dialog](BootstrapSnippets/preview.png)  
 The "Code Snippets Manager" dialog
 
-##Todo
+Todo
+----
 
-Automate building of visual studio solution
+Automate building of visual studio solution. Possibly using MSBuild and grunt.
