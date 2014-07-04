@@ -5,6 +5,19 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapSnippets", "BootstrapSnippets\BootstrapSnippets.csproj", "{48710FDB-E703-4E3A-9092-4E37E30BEB40}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D387F1BD-4860-41AF-9BEA-081C8A4A3F2D}"
+	ProjectSection(SolutionItems) = preProject
+		build.js = build.js
+		change-log.md = change-log.md
+		LICENSE = LICENSE
+		package.json = package.json
+		README.md = README.md
+		snippet-listing-markdown.handlebars = snippet-listing-markdown.handlebars
+		snippet-listing.jade = snippet-listing.jade
+		snippet-listing.md = snippet-listing.md
+		VisualStudioGalleryDescription.html = VisualStudioGalleryDescription.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
