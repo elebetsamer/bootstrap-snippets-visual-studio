@@ -5,6 +5,7 @@
     <DisplayName>Bootstrap Snippet Pack</DisplayName>
     <Description xml:space="preserve">A collection of Twitter Bootstrap snippets for Visual Studio.</Description>
     <MoreInfo>https://github.com/elebetsamer/bootstrap-snippets-visual-studio</MoreInfo>
+    <License>LICENSE.txt</License>
     <GettingStartedGuide>https://github.com/elebetsamer/bootstrap-snippets-visual-studio</GettingStartedGuide>
     <Icon>logo.png</Icon>
     <PreviewImage>preview.png</PreviewImage>
