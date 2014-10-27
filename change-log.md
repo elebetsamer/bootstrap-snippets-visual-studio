@@ -1,6 +1,18 @@
 Change log
 ==========
 
+Version 1.0.5
+-------------
+
+Added the following snippets:
+
+* form-group-select.snippet
+* modal-lg.snippet
+* modal.sm.snippet
+
+Removed extra white space (tab indents) in a number of snippets.
+
+
 Version 1.0.4
 -------------
 
