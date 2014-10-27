@@ -190,6 +190,9 @@
     <Content Include="Snippets\HTML\Bootstrap\form-group-radio.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\HTML\Bootstrap\modal-lg.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\modal-sm.snippet" />
+    <Content Include="Snippets\HTML\Bootstrap\form-group-select.snippet" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x form group select</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>A form group with a select dropdown and a label.</Description>
+			<Shortcut>bs-form-group-select</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the select</ToolTip>
+					<Default>form-group-select</Default>
+				</Literal>
+				<Literal>
+					<ID>label</ID>
+					<ToolTip>Text for the label</ToolTip>
+					<Default>My label</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="form-group">
+	<label class="control-label" for="$id$">$label$</label>
+	<select class="form-control" id="$id$">$end$</select>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

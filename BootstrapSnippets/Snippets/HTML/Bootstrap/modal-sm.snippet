@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Bootstrap 3.x modal (small)</Title>
+			<Author>Eric Lebetsamer</Author>
+			<Description>Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.</Description>
+			<Shortcut>bs-modal-sm</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>id</ID>
+					<ToolTip>ID of the modal</ToolTip>
+					<Default>myModal</Default>
+				</Literal>
+				<Literal>
+					<ID>title</ID>
+					<ToolTip>Title of the modal</ToolTip>
+					<Default>Modal title</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>Content of the modal</ToolTip>
+					<Default><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>]]></Default>
+				</Literal>
+				<Literal>
+					<ID>close-text</ID>
+					<ToolTip>Text for the "close" button</ToolTip>
+					<Default>Close</Default>
+				</Literal>
+				<Literal>
+					<ID>save-text</ID>
+					<ToolTip>Text for the "save" button</ToolTip>
+					<Default>Save</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="modal fade" id="$id$" tabindex="-1" role="dialog" aria-labelledby="$id$-label" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="$id$-label">$title$</h4>
+			</div>
+			<div class="modal-body">
+				$content$
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">$close-text$</button>
+				<button type="button" class="btn btn-primary">$save-text$</button>
+			</div>
+		</div>
+	</div>
+</div>]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
