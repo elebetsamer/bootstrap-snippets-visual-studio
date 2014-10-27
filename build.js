@@ -5,6 +5,8 @@ var fs = require('fs'),
     jade = require('jade'),
     handlebars = require('handlebars');
 
+fs.createReadStream('LICENSE').pipe(fs.createWriteStream('BootstrapSnippets/LICENSE.txt'));
+
 var parser = new xml2js.Parser({async: true, explicitRoot: false, explicitArray: false, ignoreAttrs: false});
 
 fs.readdir(__dirname + '/BootstrapSnippets/Snippets/HTML/Bootstrap/', function (err, files) {
