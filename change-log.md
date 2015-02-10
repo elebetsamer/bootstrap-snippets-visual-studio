@@ -1,6 +1,13 @@
 Change log
 ==========
 
+Version 1.0.6
+-------------
+
+Bump Bootstrap version to 3.3.2.  
+Bump jQuery version from *1.11.1* to *1.11.2*.  
+Add support for Visual Studio 2015 (thanks to Mads Kristensen for the [pull request](https://github.com/elebetsamer/bootstrap-snippets-visual-studio/pull/2))
+
 Version 1.0.5
 -------------
 
