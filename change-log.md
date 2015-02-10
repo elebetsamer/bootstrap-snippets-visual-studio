@@ -1,6 +1,11 @@
 Change log
 ==========
 
+Version 1.0.7
+-------------
+
+Updated snippet for media object and media list. Using new media-left and media-right classes instead of depreciated pull-left and pull-right.
+
 Version 1.0.6
 -------------
 
