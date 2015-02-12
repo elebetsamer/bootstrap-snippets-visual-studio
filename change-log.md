@@ -1,6 +1,11 @@
 Change log
 ==========
 
+Version 1.0.8
+-------------
+
+Added support for Visual Studio Express 2012 for Web and Visual Studio Express 2013 for Web.
+
 Version 1.0.7
 -------------
 
