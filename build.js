@@ -2,7 +2,6 @@ var fs = require('fs'),
     path = require('path'),
     util = require('util'),
     xml2js = require('xml2js'),
-    jade = require('jade'),
     handlebars = require('handlebars');
 
 fs.createReadStream('LICENSE').pipe(fs.createWriteStream('BootstrapSnippets/LICENSE.txt'));
@@ -79,8 +78,4 @@ function processSnippets(snippets) {
 
         fs.writeFile("snippet-listing.md", markdown);
     });
-
-//    var html = jade.renderFile("snippet-listing.jade", {snippets: snippets});
-//
-//    fs.writeFile("snippet-listing.html", html);
 }
