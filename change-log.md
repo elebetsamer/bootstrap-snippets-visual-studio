@@ -1,6 +1,11 @@
 Change log
 ==========
 
+Version 1.0.10
+-------------
+
+Add missing snippets in to VSIX.
+
 Version 1.0.9
 -------------
 
