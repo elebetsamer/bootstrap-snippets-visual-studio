@@ -1,6 +1,12 @@
 Change log
 ==========
 
+Version 1.0.9
+-------------
+
+Bump Bootstrap version to 3.3.4.  
+Removed support for Visual Studio Express SKUs. Couldn't get this to work.
+
 Version 1.0.8
 -------------
 
