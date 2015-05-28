@@ -30,12 +30,12 @@
 				</Literal>
 			</Declarations>
 			<Code Language="HTML">
-				<![CDATA[<div class="form-group">
-	<label class="col-sm-2 control-label" for="$id$">$label$</label>
+								<![CDATA[<div class="form-group">
+	<label class="col-sm-2 control-label" for="<%=$id$.ClientID %>">$label$</label>
 	<div class="col-sm-10">
-		<input type="$type$" class="form-control" id="$id$" placeholder="$label$">
+		<asp:TextBox runat="server" class="form-control" id="$id$" placeholder="$label$" />
 	</div>
-</div>]]>
+</div>$end$ ]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>
