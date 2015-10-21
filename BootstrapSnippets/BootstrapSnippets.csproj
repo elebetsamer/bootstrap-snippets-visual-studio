@@ -88,10 +88,22 @@
     <Content Include="Snippets\HTML\Bootstrap\alert.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\HTML\Bootstrap\badge.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Snippets\HTML\Bootstrap\badge.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\breadcrumb.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-dropdown-split.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-dropdown.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-group.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\btn-toolbar.png">
@@ -100,16 +112,34 @@
     <Content Include="Snippets\HTML\Bootstrap\carousel.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\HTML\Bootstrap\collapse.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Snippets\HTML\Bootstrap\form-group-checkbox.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\form-group-horizontal-checkbox.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-group-horizontal.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-group-inline.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Snippets\HTML\Bootstrap\form-group-radio.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\form-group-select.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-group.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-horizontal.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-inline.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\form.png">
@@ -119,6 +149,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\input-group.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\jumbotron.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\label.png">
@@ -140,6 +173,18 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\modal.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\nav-pills.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\nav-tabs.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\navbar.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\page-header.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\HTML\Bootstrap\pager.png">
