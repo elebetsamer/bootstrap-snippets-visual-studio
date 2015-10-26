@@ -1,6 +1,11 @@
 Change log
 ==========
 
+Version 1.0.11
+--------------
+
+Bump Bootstrap version to 3.3.5
+
 Version 1.0.10
 -------------
 
