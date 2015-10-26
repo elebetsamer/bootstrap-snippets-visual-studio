@@ -6,6 +6,15 @@ Version 1.0.11
 
 Bump Bootstrap version to 3.3.5
 
+A big thanks to madskristensen@c6c6b24a5c93f666a2d35dd89aeb76d5d3f5468e for his pull request:
+
+1. Added an icon for each snippets
+  - Each icon works for both Light and Dark theme
+2. Update the titles of each snippet
+  - Removed _Bootstrap 3.x_ and change casing
+3. Updated .csproj file so the VSIX project can be opened in VS2015 as well VS2013
+
+
 Version 1.0.10
 -------------
 
