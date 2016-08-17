@@ -1,6 +1,21 @@
 Change log
 ==========
 
+Version 1.0.12
+--------------
+
+Bump Bootstrap version to 3.3.7
+
+Bump html5shiv to v3.7.3
+
+Bump jQuery version to 1.12.4
+
+Update snippets based on current bootstrap docs.
+
+Update snippets to use spaces instead of tabs (because the bootstrap docs/examples use spaces).
+
+Add `$end$` tags to all snippets to control cursor placement when snippet is inserted. Most snippets will place the cursor just at the end of the snippet.
+
 Version 1.0.11
 --------------
 

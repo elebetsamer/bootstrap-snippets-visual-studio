@@ -5,7 +5,7 @@
 		<Header>
 			<Title>Accordion</Title>
 			<Author>Eric Lebetsamer</Author>
-			<Description>Using the collapse plugin, we built a simple accordion by extending the panel component.</Description>
+			<Description>Extend the default collapse behavior to create an accordion with the panel component.</Description>
 			<Shortcut>bs-accordion</Shortcut>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -50,50 +50,50 @@
 				</Literal>
 			</Declarations>
 			<Code Language="HTML">
-				<![CDATA[<div class="panel-group" id="$id$">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h4 class="panel-title">
-				<a data-toggle="collapse" data-parent="#$id$" href="#$id$-one">
-					$heading1$
-				</a>
-			</h4>
-		</div>
-		<div id="$id$-one" class="panel-collapse collapse in">
-			<div class="panel-body">
-				$content1$
-			</div>
-		</div>
-	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h4 class="panel-title">
-				<a data-toggle="collapse" data-parent="#$id$" href="#$id$-two">
-					$heading2$
-				</a>
-			</h4>
-		</div>
-		<div id="$id$-two" class="panel-collapse collapse">
-			<div class="panel-body">
-				$content2$
-			</div>
-		</div>
-	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h4 class="panel-title">
-				<a data-toggle="collapse" data-parent="#$id$" href="#$id$-three">
-					$heading3$
-				</a>
-			</h4>
-		</div>
-		<div id="$id$-three" class="panel-collapse collapse">
-			<div class="panel-body">
-				$content3$
-			</div>
-		</div>
-	</div>
-</div>]]>
+				<![CDATA[<div class="panel-group" id="$id$" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="$id$-heading-one">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#$id$" href="#$id$-one" aria-expanded="true" aria-controls="$id$-one">
+          $heading1$
+        </a>
+      </h4>
+    </div>
+    <div id="$id$-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="$id$-heading-one">
+      <div class="panel-body">
+        $content1$
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="$id$-heading-two">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#$id$" href="#$id$-two" aria-expanded="false" aria-controls="$id$-two">
+          $heading2$
+        </a>
+      </h4>
+    </div>
+    <div id="$id$-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="$id$-heading-two">
+      <div class="panel-body">
+        $content2$
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="$id$-heading-three">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#$id$" href="#$id$-three" aria-expanded="false" aria-controls="$id$-three">
+          $heading3$
+        </a>
+      </h4>
+    </div>
+    <div id="$id$-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="$id$-heading-three">
+      <div class="panel-body">
+        $content3$
+      </div>
+    </div>
+  </div>
+</div>$end$]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>

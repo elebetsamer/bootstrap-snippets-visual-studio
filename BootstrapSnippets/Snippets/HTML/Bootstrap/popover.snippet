@@ -13,19 +13,24 @@
 		</Header>
 		<Snippet>
 			<Declarations>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>The title for the popover</ToolTip>
+          <Default>Popover title</Default>
+        </Literal>
 				<Literal>
 					<ID>popover</ID>
 					<ToolTip>The text for the popover</ToolTip>
-					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+					<Default>And here's some amazing content. It's very engaging. Right?</Default>
 				</Literal>
 				<Literal>
 					<ID>content</ID>
 					<ToolTip>The content for the popover link</ToolTip>
-					<Default>Hover over me</Default>
+					<Default>Click to toggle popover</Default>
 				</Literal>
 			</Declarations>
 			<Code Language="HTML">
-				<![CDATA[<a href="#" data-container="body" data-toggle="popover" data-content="popover">$content$</a>]]>
+				<![CDATA[<button type="button" class="btn btn-default" data-toggle="popover" title="$title$" data-content="$popover$">$content$</button>$end$]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>
