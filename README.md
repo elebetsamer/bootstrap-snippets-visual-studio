@@ -3,7 +3,7 @@ Bootstrap Snippets for Visual Studio
 
 ##The ultimate snippet pack for web developers using the Twitter Bootstrap framework
 
-Contains a collection of [Twitter Bootstrap](https://getbootstrap.com/) snippets for Visual Studio 2012/2013/2015.
+Contains a collection of [Twitter Bootstrap](https://getbootstrap.com/) snippets for Visual Studio 2012/2013/2015/2017.
 
 The code snippets are currently based on Bootstrap **3.3.7**
 

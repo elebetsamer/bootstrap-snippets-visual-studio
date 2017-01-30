@@ -1,6 +1,11 @@
 Change log
 ==========
 
+Version 1.0.13
+--------------
+
+Upgraded to VSIX v3 to support VS 2017 - Thanks [Mads Kristensen](https://github.com/madskristensen) for this [pull request](https://github.com/elebetsamer/bootstrap-snippets-visual-studio/pull/14)
+
 Version 1.0.12
 --------------
 
@@ -21,7 +26,7 @@ Version 1.0.11
 
 Bump Bootstrap version to 3.3.5
 
-A big thanks to madskristensen@c6c6b24a5c93f666a2d35dd89aeb76d5d3f5468e for his pull request:
+A big thanks to [Mads Kristensen](https://github.com/madskristensen) for his [pull request](https://github.com/elebetsamer/bootstrap-snippets-visual-studio/pull/8):
 
 1. Added an icon for each snippets
   - Each icon works for both Light and Dark theme
@@ -56,7 +61,7 @@ Version 1.0.6
 
 Bump Bootstrap version to 3.3.2.  
 Bump jQuery version from *1.11.1* to *1.11.2*.  
-Add support for Visual Studio 2015 (thanks to Mads Kristensen for the [pull request](https://github.com/elebetsamer/bootstrap-snippets-visual-studio/pull/2))
+Add support for Visual Studio 2015 (thanks to [Mads Kristensen](https://github.com/madskristensen) for the [pull request](https://github.com/elebetsamer/bootstrap-snippets-visual-studio/pull/2))
 
 Version 1.0.5
 -------------

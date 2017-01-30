@@ -71,6 +71,6 @@ function processSnippets(snippets) {
 		var template = handlebars.compile(data.toString());
 		var markdown = template({snippets: snippets});
 
-		fs.writeFile("snippet-listing.md", markdown);
+		fs.writeFileSync("snippet-listing.md", markdown);
 	});
 }
