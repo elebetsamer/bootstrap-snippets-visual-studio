@@ -14,15 +14,11 @@
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0]" />
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0]" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0,17.0)" />
   </Installation>
   <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
   </Prerequisites>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-  </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="snippets.pkgdef" />
   </Assets>
