@@ -4,7 +4,7 @@
   },
   "name": "bootstrap-snippets-visual-studio",
   "description": "Bootstrap Snippets for Visual Studio",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "main": "build.js",
   "repository": {
     "type": "git",
