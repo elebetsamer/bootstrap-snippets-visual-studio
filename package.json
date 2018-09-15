@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/elebetsamer/bootstrap-snippets-visual-studio",
   "devDependencies": {
-    "glob": "~5.0.5",
-    "handlebars": "~3.0.2",
-    "xml2js": "~0.4.8"
+    "glob": "^7.1.3",
+    "handlebars": "^4.0.12",
+    "xml2js": "^0.4.19"
   }
 }
