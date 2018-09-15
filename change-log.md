@@ -1,6 +1,13 @@
 Change log
 ==========
 
+Version 1.0.14
+--------------
+
+Update npm packages to current versions.
+
+Added support for VS 16.0 - Thanks again to [Mads Kristensen](https://github.com/madskristensen) for this [pull request](https://github.com/elebetsamer/bootstrap-snippets-visual-studio/pull/20)
+
 Version 1.0.13
 --------------
 
